@@ -1,0 +1,29 @@
+{
+    "algorithms": {
+        "AES-GCM-Dec": {
+            "ciphertext_size": 217,
+            "execution_time": 0.003477234999081702,
+            "key_generation_time": 0,
+            "key_size": 16,
+            "memory_usage": 0.42578125,
+            "scalability": "Linear",
+            "security_strength": "128-bit",
+            "throughput": 56.44975463316045
+        },
+        "SHA-256-ReHash": {
+            "execution_time": 2.789999962260481e-05,
+            "hash_size": 64,
+            "key_generation_time": 0,
+            "key_size": 0,
+            "memory_usage": 0.0,
+            "scalability": "Linear",
+            "security_strength": "256-bit",
+            "throughput": 7035.450363983697
+        }
+    },
+    "file_info": {
+        "name": "myfile.zip",
+        "size_bytes": 201,
+        "size_kb": 0.1962890625
+    }
+}

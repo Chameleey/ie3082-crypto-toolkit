@@ -1,0 +1,2 @@
+SHA-256 hash of myfile.zip:
+6b14b140bf1151d157bb4d22600f7ecb3c93c46dc21a8fa115d1da9f4e3678d7

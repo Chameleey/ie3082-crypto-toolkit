@@ -1,0 +1,49 @@
+{
+    "algorithms": {
+        "AES-256-GCM": {
+            "ciphertext_size": 27,
+            "execution_time": 0.044879131999550737,
+            "key_generation_time": 0,
+            "key_size": 32,
+            "memory_usage": 0.5703125,
+            "scalability": "Linear",
+            "security_strength": "256-bit",
+            "throughput": 0.23935818322216068
+        },
+        "ECC-Ed25519": {
+            "execution_time": 0.0012565760007419158,
+            "key_generation_time": 0.0026082620006491197,
+            "key_size": 32,
+            "memory_usage": 0.0,
+            "scalability": "Linear",
+            "security_strength": "128-bit equivalent",
+            "signature_size": 64,
+            "throughput": 8.548776591035901
+        },
+        "RSA-3072": {
+            "ciphertext_size": 395,
+            "execution_time": 0.0005837219996465137,
+            "key_generation_time": 0.292806337998627,
+            "key_size": 3072,
+            "memory_usage": 0.0,
+            "scalability": "Hybrid (AES for data, RSA for key)",
+            "security_strength": "3072-bit (RSA) + 256-bit (AES)",
+            "throughput": 18.402916981894084
+        },
+        "SHA-256": {
+            "execution_time": 8.163699931174051e-05,
+            "hash_size": 64,
+            "key_generation_time": 0,
+            "key_size": 0,
+            "memory_usage": 0.0,
+            "scalability": "Linear",
+            "security_strength": "256-bit",
+            "throughput": 131.58479109428913
+        }
+    },
+    "file_info": {
+        "name": "sample.txt",
+        "size_bytes": 11,
+        "size_kb": 0.0107421875
+    }
+}

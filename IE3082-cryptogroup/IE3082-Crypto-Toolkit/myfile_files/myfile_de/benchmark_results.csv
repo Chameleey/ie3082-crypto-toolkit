@@ -1,0 +1,3 @@
+algorithm,execution_time,throughput,memory_usage,key_generation_time,key_size,output_size,security_strength
+AES-GCM-Dec,0.003477234999081702,56.44975463316045,0.42578125,0,16,217,128-bit
+SHA-256-ReHash,2.789999962260481e-05,7035.450363983697,0.0,0,0,64,256-bit

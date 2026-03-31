@@ -1,0 +1,49 @@
+{
+    "algorithms": {
+        "AES-128-GCM": {
+            "ciphertext_size": 217,
+            "execution_time": 0.010826562000147533,
+            "key_generation_time": 0,
+            "key_size": 16,
+            "memory_usage": 0.40625,
+            "scalability": "Linear",
+            "security_strength": "128-bit",
+            "throughput": 18.130322672823116
+        },
+        "ECC-Ed25519": {
+            "execution_time": 0.0004103699993720511,
+            "key_generation_time": 0.0003329329992993735,
+            "key_size": 32,
+            "memory_usage": 0.0,
+            "scalability": "Linear",
+            "security_strength": "128-bit equivalent",
+            "signature_size": 64,
+            "throughput": 478.32215512918066
+        },
+        "RSA-3072": {
+            "ciphertext_size": 585,
+            "execution_time": 0.0003574640013539465,
+            "key_generation_time": 0.1467809349996969,
+            "key_size": 3072,
+            "memory_usage": 0.0,
+            "scalability": "Hybrid (AES for data, RSA for key)",
+            "security_strength": "3072-bit (RSA) + 128-bit (AES)",
+            "throughput": 549.1156081634145
+        },
+        "SHA-256": {
+            "execution_time": 6.946699977561366e-05,
+            "hash_size": 64,
+            "key_generation_time": 0,
+            "key_size": 0,
+            "memory_usage": 0.0,
+            "scalability": "Linear",
+            "security_strength": "256-bit",
+            "throughput": 2825.644739718659
+        }
+    },
+    "file_info": {
+        "name": "myfile.zip",
+        "size_bytes": 201,
+        "size_kb": 0.1962890625
+    }
+}
