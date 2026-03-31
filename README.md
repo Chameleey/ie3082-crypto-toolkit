@@ -79,7 +79,11 @@ Kali Linux • Python • PyCryptodome • cryptography • matplotlib • panda
 
 <h2>📂 Project File</h2>
 
-<p>Cryptography_Performance_Evaluation.pdf</p>
+<p>
+<a href="https://github.com/Chameleey/ie3082-crypto-toolkit/blob/main/Crypto%20Assignment.pdf">
+📄 View Project Report (PDF)
+</a>
+</p>
 
 <hr>
 
