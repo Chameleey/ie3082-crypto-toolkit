@@ -15,6 +15,15 @@ to perform encryption, decryption, hashing, and benchmarking across multiple fil
 
 <hr>
 
+<h2>🛠️ Installation</h2>
+
+<pre>
+pip install -r requirements.txt
+python install.py
+</pre>
+
+<hr>
+
 <h2>🛠️ Implementation</h2>
 
 <ul>
